@@ -1,1 +1,1 @@
-# Summarization-Translation
+# Summarization and Machine Translation
