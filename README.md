@@ -35,4 +35,5 @@ Use the Groq API once more to generate a final comprehensive summary from the co
 
 ## Future plan
 - Discourse Analysis and find Discourse Structure
+- Cohesion and Coherence
 - Graph theory
