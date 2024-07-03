@@ -1,5 +1,6 @@
 ## Summariztion+Deep-translator (Jupyter-Notebook)
 This project showcases how to use a model hosted on Hugging Face to summarize a PDF document. The process involves loading the PDF using fitz, chunking the text with LangChain, summarizing each chunk, concatenating the summaries, and then translating the final summary using deep-translator.
+
 Steps
 1. Loading the PDF
 Use fitz (PyMuPDF) to load and read the PDF document.
