@@ -34,5 +34,5 @@ Concatenate the individual chunk summaries to form a single document.
 Use the Groq API once more to generate a final comprehensive summary from the concatenated chunk summaries.
 
 ## Future plan
-- Discourse Analysis and Find Discourse Structure
+- Discourse Analysis and find Discourse Structure
 - Graph theory
