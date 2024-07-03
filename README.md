@@ -32,3 +32,6 @@ Store the summaries of each chunk in a list.
 Concatenate the individual chunk summaries to form a single document.
 6. Final Summary
 Use the Groq API once more to generate a final comprehensive summary from the concatenated chunk summaries.
+
+## Future plan
+How to Discourse Analysis and Find Discourse Structure
