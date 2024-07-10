@@ -22,7 +22,8 @@ Steps
 1. Setting Up Groq API
 Register and obtain your API key from Groq.
 Access to the Llama3 8b model through Groq.
-2. Loading the PDF file. Extract the text from the PDF for further processing.
+2. Loading the PDF file
+Extract the text from the PDF for further processing.
 3. Chunking the Text
 Utilize LangChain to divide the extracted text into manageable chunks.
 4. Summarizing Each Chunk
@@ -32,6 +33,25 @@ Store the summaries of each chunk in a list.
 Concatenate the individual chunk summaries to form a single document.
 6. Final Summary
 Use the Groq API once more to generate a final comprehensive summary from the concatenated chunk summaries.
+
+## Multi-Docs-Summarization-GROQ (Jupyter-Notebook)
+This project demonstrates how to use the GROQ API to summarize and translate PDF documents using the mixtral-8x7b model. The process involves loading PDF files, chunking the text, summarizing each chunk, and then generating a comprehensive summary.
+
+Steps:
+
+1. Setting Up GROQ API
+Register and obtain your API key from GROQ.
+Access to the mixtral-8x7b model through GROQ.
+2. Loading the PDF file
+Extract the text from the PDF for further processing.
+3. Chunking the Text
+Utilize LangChain to divide the extracted text into manageable chunks.
+4. Summarizing Each Chunk
+For each chunk of text, use the GROQ API to call the mixtral-8x7b model and generate a summary. Store the summaries of each chunk in a list.
+5. Concatenating Summaries
+Combine the individual chunk summaries to form a single document.
+6. Final Summarization
+Use the GROQ API again to generate a comprehensive summary from the concatenated summaries.
 
 ## Future plan
 - Discourse Analysis and find Discourse Structure
