@@ -11,6 +11,6 @@ BERT Score is effective in capturing semantic meaning and context, making it use
 
 #### 2. ROUGE Score:
   The ROUGE metric is used for measuring the overlap between n-grams in the generated and reference summaries.
-In this project, we use ROUGE-N and ROUGE-L:
-ROUGE-N: Measures n-gram overlap (e.g., unigram, bigram).
+In this project, we use ROUGE-N and ROUGE-L:<br>
+ROUGE-N: Measures n-gram overlap (e.g., unigram, bigram).<br>
 ROUGE-L: Measures the longest common subsequence (LCS) between the generated and reference summaries.
